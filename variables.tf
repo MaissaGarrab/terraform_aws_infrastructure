@@ -17,6 +17,12 @@ variable "session_token" {
   sensitive   = true
 }
 
+variable "region" {
+  description = "IAM user region"
+  type        = string
+  sensitive   = true
+}
+
 variable "vpc_name" {
   description = "Name of VPC"
   type        = string

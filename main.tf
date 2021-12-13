@@ -12,7 +12,7 @@ provider "aws" {
     access_key = var.access_key_id
     secret_key = var.secret_access_key
     token = var.session_token
-    region = "us-east-1"
+    region = var.region
 }
 
 module "vpc" {
